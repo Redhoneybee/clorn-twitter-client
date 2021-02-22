@@ -1,11 +1,15 @@
 import React from 'react';
+import { HashRouter, Route } from "react-router-dom";
+
+// routes 
+import Logout from "../routes/Logout";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-
-      </header>
+    <div className="container">
+      <HashRouter>
+        <Route path="/" exact component={Logout} />
+      </HashRouter>
     </div>
   );
 }
