@@ -1,0 +1,128 @@
+.modal_wrap{
+    width : 100%;
+    height : 100%;
+    min-height : 771px;
+    background-color : white;
+}
+
+.modal_wrap .mask{
+    position : absolute;
+    top : 0;
+    left : 0;
+    width : 100vw;
+    height : 100vh;
+    background-color : rgba(0, 0, 0, 0.3);
+    z-index : -1;
+    pointer-events: none;
+}
+
+.modal_wrap .modal_contents{
+    min-height : inherit;
+}
+
+.modal_header .header_wrap{
+    padding : 0 20px;
+    height : 60px;
+    display : flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items : center;
+}
+.header_wrap .logo{
+    font-size : 32px;
+    line-height : 38px;
+}
+
+.header_wrap .next_wrap{ 
+    position : absolute;
+    right : 20px;
+}
+.next_wrap .next_btn{
+    border : 1px solid white;
+    background-color : rgb(29, 161, 242);
+    padding : 5px 10px;
+    border-radius : 5000px;
+    color : white;
+}
+
+
+.modal_section{
+    width : 100%;
+    height : 100%;
+}
+
+.modal_section .section_wrap{
+    padding : 15px 30px;
+}
+
+.section_wrap > .title{
+    font-size : 22px;
+    font-weight : bold;
+    margin-bottom : 30px;
+}
+
+.textbox{
+    position : relative;
+    margin-bottom : 20px;
+}
+
+.textbox label{
+    position : absolute;
+    font-size : 20px;
+    color : rgba(0, 0, 0, 0.3);
+    top : 13px;
+    left : 10px;
+}
+.textbox input{
+    width : 100%;
+    height : 45px;
+    border-radius: 5px;
+    border : 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.section_wrap a{
+    color : rgb(29, 161, 242);
+    text-decoration: underline;
+}
+
+.section_wrap .article{
+    margin-top : 20px;
+    margin-bottom : 20px;
+}
+
+.article .title{
+    display: block;
+    font-weight: bold;
+    font-size : 16px;
+}
+
+.article .section{
+    font-size : 14px;
+    color : rgba(0, 0, 0, 0.4);
+}
+
+.birthday{
+    width : 100%;
+}
+
+.birthday .select_wrap{
+    position : relative;
+    margin-right : 10px;
+}
+
+.birthday .select_wrap:nth-of-type(3){
+    margin-right : 0px;
+}
+
+.select_wrap label{
+    position: absolute;
+}
+
+.select_wrap select{
+    padding : 10px 10px;
+    border-radius: 5px;
+    border : 1px solid rgba(0, 0, 0, 0.3);
+}
+
+
+
